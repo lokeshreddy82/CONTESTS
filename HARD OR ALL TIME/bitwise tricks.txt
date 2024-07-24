@@ -1,0 +1,23 @@
+bitwise tricks
+5%10--> a&(2**y-1)
+
+power 2**y=2<<y-1
+
+swaping two numbers
+x=x^y
+y=x^y
+x=x^y
+
+property
+
+no of set bits in A =x
+no of set bits in B=y
+no of set bits in (a^b)=z
+then
+z is even if x+y is even 
+z is odd if x+y is odd
+
+second property
+
+a+b=(a^b)+2(a&b)
+a+b=(a|b)+(a&b)
