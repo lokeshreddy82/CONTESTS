@@ -21,3 +21,5 @@ second property
 
 a+b=(a^b)+2(a&b)
 a+b=(a|b)+(a&b)
+
+(total + x - 1) // x =>it is used to find the ceil value trick
