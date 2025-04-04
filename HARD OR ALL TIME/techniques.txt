@@ -16,3 +16,9 @@ sorting based on values in decending order
 
 
 =>  sorted_dict = dict(sorted(my_dict.items(), key=lambda item: item[1], reverse=True))
+
+
+custom sort:
+
+sorted_ranges = sorted(ranges, key=lambda x: (x[0], -x[1]))
+print(sorted_ranges)
